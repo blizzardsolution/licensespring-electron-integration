@@ -1,4 +1,4 @@
-# electron-quick-start
+# LicenseSpring SDK integration into Electron.js application
 
 **Clone and run for a quick way to see Electron in action.**
 
