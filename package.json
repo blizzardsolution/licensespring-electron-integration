@@ -18,6 +18,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
+    "electron-rebuild": "^1.8.6",
     "eslint": "^6.3.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.1.0",
@@ -28,6 +29,7 @@
   },
   "dependencies": {
     "electron": "^6.0.7",
+    "node-gyp": "^5.0.3",
     "smalltalk": "^3.4.0"
   }
 }
