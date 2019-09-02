@@ -1,33 +1,33 @@
 {
-    "name": "licensespring-electron-integration",
-    "version": "1.0.0",
-    "description": "An electron demo application for demonstrating licensespring SDK integration",
-    "main": "main.js",
-    "scripts": {
-        "start": "electron ."
-    },
-    "repository": "https://github.com/blizzardsolution/licensespring-electron-integration.git",
-    "keywords": [
-        "Electron",
-        "quick",
-        "start",
-        "tutorial",
-        "demo"
-    ],
-    "author": "GitHub",
-    "license": "CC0-1.0",
-    "devDependencies": {
-        "babel-eslint": "^10.0.3",
-        "eslint": "^6.3.0",
-        "eslint-config-airbnb-base": "^14.0.0",
-        "eslint-config-prettier": "^6.1.0",
-        "eslint-plugin-html": "^6.0.0",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-prettier": "^3.1.0",
-        "prettier": "^1.18.2"
-    },
-    "dependencies": {
-        "electron": "^6.0.7",
-        "smalltalk": "^3.4.0"
-    }
+  "name": "licensespring-electron-integration",
+  "version": "1.0.0",
+  "description": "An electron demo application for demonstrating licensespring SDK integration",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/blizzardsolution/licensespring-electron-integration.git",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "electron": "^6.0.7",
+    "smalltalk": "^3.4.0"
+  }
 }

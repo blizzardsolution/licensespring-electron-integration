@@ -1,80 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
-        <title>Activation</title>
-        <link
-            href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-            rel="stylesheet"
-        />
-        <style>
-            :root {
-                --NikeGreen: #71fc98;
-                --NikeBlueGrey: #2e3a44;
-                --NikeDark: #0b1116;
-                --NikeBorder: #1b1b1b;
-                --NikeDarkest: #080c0f;
-            }
-            .background {
-                background-color: var(--NikeDark);
-            }
-            .border-nike-green {
-                border-color: var(--NikeGreen);
-            }
-            .bg-nike-darkest {
-                background-color: var(--NikeDarkest);
-            }
-            .border-nike-border {
-                border-color: var(--NikeDark);
-            }
-            .text-blue-grey {
-                color: var(--NikeBlueGrey);
-            }
-            input {
-                text-align: center;
-            }
-            ::-webkit-input-placeholder {
-                font-size: 2rem;
-                text-align: center;
-            }
-            .activation {
-                width: 150px;
-                height: auto;
-            }
-        </style>
-    </head>
-    <body class="background">
-        <div id="app">
-            <div class="p-16 flex flex-col items-center">
-                <div class="flex-1 px-4 py-2 m-2">
-                    <img
-                        src="assets/activation.png"
-                        alt="License key"
-                        class="activation"
-                    />
-                </div>
-                <div class="flex-2 px-4 py-2 m-2 w-10/12">
-                    <input
-                        class="border border-nike-border bg-nike-darkest rounded-lg h-10 w-full py-2 px-3 text-blue-grey m-3 text-lg"
-                        id="license-key"
-                        placeholder="xxx-xxx-xxx-xxx-xxx-xxx-xxx"
-                    />
-                </div>
-                <div class="flex-1 px-4 py-2 m-2">
-                    <button
-                        id="activate-btn"
-                        class="mx-5 px-10 py-2 order-solid border-2 border-nike-green text-white text-lg rounded-lg"
-                    >
-                        Activate
-                    </button>
-                </div>
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title>Activation</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <style>
+      :root {
+        --NikeGreen: #71fc98;
+        --NikeBlueGrey: #2e3a44;
+        --NikeDark: #0b1116;
+        --NikeBorder: #1b1b1b;
+        --NikeDarkest: #080c0f;
+      }
+      .background {
+        background-color: var(--NikeDark);
+      }
+      .border-nike-green {
+        border-color: var(--NikeGreen);
+      }
+      .bg-nike-darkest {
+        background-color: var(--NikeDarkest);
+      }
+      .border-nike-border {
+        border-color: var(--NikeDark);
+      }
+      .text-blue-grey {
+        color: var(--NikeBlueGrey);
+      }
+      input {
+        text-align: center;
+      }
+      ::-webkit-input-placeholder {
+        font-size: 2rem;
+        text-align: center;
+      }
+      .activation {
+        width: 150px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body class="background">
+    <div id="app">
+      <div class="p-16 flex flex-col items-center">
+        <div class="flex-1 px-4 py-2 m-2">
+          <img src="assets/activation.png" alt="License key" class="activation" />
         </div>
+        <div class="flex-2 px-4 py-2 m-2 w-10/12">
+          <input
+            class="border border-nike-border bg-nike-darkest rounded-lg h-10 w-full py-2 px-3 text-blue-grey m-3 text-lg"
+            id="license-key"
+            placeholder="xxx-xxx-xxx-xxx-xxx-xxx-xxx"
+          />
+        </div>
+        <div class="flex-1 px-4 py-2 m-2">
+          <button
+            id="activate-btn"
+            class="mx-5 px-10 py-2 order-solid border-2 border-nike-green text-white text-lg rounded-lg"
+          >
+            Activate
+          </button>
+        </div>
+      </div>
+    </div>
 
-        <!-- You can also require other files to run in this process -->
-        <script src="./js/renderer.js"></script>
-    </body>
+    <!-- You can also require other files to run in this process -->
+    <script src="./js/renderer.js"></script>
+  </body>
 </html>
