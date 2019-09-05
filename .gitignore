@@ -1,3 +1,5 @@
 node_modules
 package-lock.json
 build/
+license-cpp-sdk/bin/x64
+license-cpp-sdk/bin/x86
