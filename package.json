@@ -30,6 +30,6 @@
   "dependencies": {
     "electron": "^6.0.7",
     "node-gyp": "^5.0.3",
-    "smalltalk": "^3.4.0"
+    "smalltalk": "^3.4.2"
   }
 }
