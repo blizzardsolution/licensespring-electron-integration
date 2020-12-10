@@ -28,7 +28,7 @@
     "prettier": "^1.18.2"
   },
   "dependencies": {
-    "electron": "^7.2.4",
+    "electron": "^10.1.7",
     "node-gyp": "^5.1.1",
     "smalltalk": "^3.4.2"
   }
