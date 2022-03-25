@@ -4,7 +4,9 @@
   "description": "An electron demo application for demonstrating licensespring SDK integration",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": "https://github.com/blizzardsolution/licensespring-electron-integration.git",
   "keywords": [
@@ -30,6 +32,8 @@
   "dependencies": {
     "electron": "^7.2.4",
     "node-gyp": "^5.1.1",
-    "smalltalk": "^3.4.2"
-  }
+    "smalltalk": "^3.4.2",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
